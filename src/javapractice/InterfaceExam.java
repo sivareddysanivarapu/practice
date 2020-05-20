@@ -1,4 +1,4 @@
-package practice;
+package javapractice;
 
 public class InterfaceExam implements CentralTraffic,ContinentalTraffic {
 	public void siva() {

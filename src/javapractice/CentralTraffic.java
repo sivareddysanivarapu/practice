@@ -1,4 +1,4 @@
-package practice;
+package javapractice;
 
 public interface CentralTraffic {
 	int a=4;//for declaring variables in interfaces we need to define as public

@@ -1,4 +1,4 @@
-package practice;
+package seleniumpractice;
 
 public class Helloworld {
 
