@@ -10,7 +10,7 @@ public class Practicetest {
 
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "resource/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 		   WebDriver driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

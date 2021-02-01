@@ -22,7 +22,7 @@ public class Alerts {
 
 		String text = "Rahul";
 
-		System.setProperty("webdriver.chrome.driver", "resource/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 

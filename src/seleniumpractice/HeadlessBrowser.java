@@ -13,7 +13,7 @@ public class HeadlessBrowser {
 	public static void test() {
 
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Welcome\\Desktop\\practice\\practice\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 		ChromeOptions opt = new ChromeOptions();
 		opt.addArguments("headless");// browser doesnt open but tests run
 

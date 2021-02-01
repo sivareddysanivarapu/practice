@@ -1,4 +1,5 @@
 package seleniumpractice;
+
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.Keys;
@@ -17,7 +18,7 @@ public class Assignment {
 
 // TODO Auto-generated method stub
 
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "D:\\Drivers&Zars\\chromedriver.exe");
 
 		WebDriver driver = new ChromeDriver();
 

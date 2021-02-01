@@ -12,7 +12,7 @@ public class Tables {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// TODO Auto-generated method stub
-				System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+				System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 				WebDriver driver = new ChromeDriver();
 				driver.manage().window().maximize();
 				driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);

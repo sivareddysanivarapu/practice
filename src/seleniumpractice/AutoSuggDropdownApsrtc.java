@@ -12,14 +12,14 @@ public class AutoSuggDropdownApsrtc {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
 		driver.get("https://www.apsrtconline.in/oprs-web/");
 		driver.findElement(By.xpath("//input[@name='source']")).click();
 		driver.findElement(By.xpath("//input[@name='source']")).sendKeys("GUNTU");
-		driver.findElement(By.xpath("//input[@name='source']")).sendKeys(Keys.DOWN);
+		//driver.findElement(By.xpath("//input[@name='source']")).sendKeys(Keys.DOWN);
 		driver.findElement(By.xpath("//input[@name='source']")).sendKeys(Keys.DOWN);
 		JavascriptExecutor js = (JavascriptExecutor) driver;
 		String s1 = "return document.getElementById(\"fromPlaceName\").value;";// by using this we can grab the hidden

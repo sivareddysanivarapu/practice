@@ -10,7 +10,7 @@ public class ChromeCertifications {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Driver/chromedriver.exe");
 		DesiredCapabilities ch = DesiredCapabilities.chrome();
 		ch.acceptInsecureCerts();// for accepting your connection is not private like pages
 		ch.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);//these two lines are another form of above linke
