@@ -39,6 +39,7 @@ public class Collections {
 		System.out.println(i.next());//it iterates to next index n the set
 		i.next();
 		System.out.println(i.hasNext());
+		System.out.println(h);
 		
 
 	}

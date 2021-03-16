@@ -4,8 +4,8 @@ public class Thiskeyword {
 
 	int a = 2;
 
-	public void getData() {
-		int a = 3;
+	public void getData(int s) {
+	this.a=s;
 		int b = a + this.a;
 		System.out.println(a);
 		System.out.println(this.a);
@@ -18,8 +18,9 @@ public class Thiskeyword {
 	public static void main(String[] args) {
 // TODO Auto-generated method stub
 
+		Object obj ;
 		Thiskeyword td = new Thiskeyword();
-		td.getData();
+		td.getData(5);
 	}
 
 }

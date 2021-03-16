@@ -19,6 +19,7 @@ public class Inheritance extends JavaPractice {
 		System.out.println(i.method());
 		i.inheritmethod();
 		System.out.println(Inheritance.s);//s is a static variable so i can call using clasname
+		j.method();
 		
 	}
 

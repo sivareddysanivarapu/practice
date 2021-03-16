@@ -3,7 +3,7 @@ package javapractice;
 public class JavaPractice {
 
 	int a = 5;
-	private static String ss[] = { "siva", "sam", "reddy" };
+	private static String ss[] = { "siva", "sam", "redy" };
 	static int s = 8;
 
 	public static String arr() {
@@ -13,6 +13,8 @@ public class JavaPractice {
 
 	public String method() {
 		String a = "amma";
+		String dd= ss[2];
+		System.out.println(dd);
 		return a;
 	}
 
@@ -44,6 +46,8 @@ public class JavaPractice {
 
 		JavaPractice j = new JavaPractice();
 		j.siva(832, "reddy");
+	String aa=	j.method();
+	System.out.println(aa);
 
 	}
 
